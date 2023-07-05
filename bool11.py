@@ -1,5 +1,5 @@
-def main(number):
-    """
+def main(a):
+    """ 
     Check a "number" is both positive and even
     Args:
         number: int
@@ -7,4 +7,6 @@ def main(number):
         bool
     """
     # Write your code here
-    return 
+    answer=(a>0 and a%2==0)
+    return answer
+print(main(4))
