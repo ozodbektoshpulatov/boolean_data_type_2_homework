@@ -7,6 +7,6 @@ def main(a):
         bool
     """
     # Write your code here
-    answer=(a>0 ,a%2==0)
+    answer=(a%3==0 or a%5==0)
     return answer
 print(main(8))
