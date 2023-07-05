@@ -1,4 +1,4 @@
-def main(b):
+def main(a):
     """
     Check if the given number is divisible by only one of 3 or 5.
     Args:
@@ -7,4 +7,5 @@ def main(b):
         bool
     """
     # Write your code here
-    return 
+    answer=(a%3==0 or a%5==0) and (a%15!=0)
+    return answer
